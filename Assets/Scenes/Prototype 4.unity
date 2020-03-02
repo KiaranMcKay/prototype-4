@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 1095511817}
   - component: {fileID: 1095511816}
   - component: {fileID: 1095511815}
+  - component: {fileID: 1095511819}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -294,6 +295,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095511813}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1095511819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095511813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed5aaae349b6874daa26426b86f8fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +564,7 @@ GameObject:
   - component: {fileID: 1445920963}
   - component: {fileID: 1445920964}
   m_Layer: 0
-  m_Name: Focal Point
+  m_Name: focalPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
